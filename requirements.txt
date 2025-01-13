@@ -1,0 +1,4 @@
+psutil
+speedtest-cli
+py-cpuinfo
+pywin32
