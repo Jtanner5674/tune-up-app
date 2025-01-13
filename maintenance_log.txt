@@ -1,0 +1,92 @@
+2025-01-13 09:45:53,371 - Starting maintenance tasks...
+2025-01-13 09:46:01,745 - Starting Defragmentation...
+2025-01-13 09:46:01,746 - Starting Disk Cleanup...
+2025-01-13 09:46:01,830 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 09:46:01,830 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 09:46:05,526 - Disk Cleanup completed successfully.
+2025-01-13 09:46:24,122 - Post-maintenance Report:
+2025-01-13 09:46:24,122 - Total RAM: 31.91 GB
+2025-01-13 09:46:24,122 - Storage - Volume Size: 464.92 GB, Free Space: 54.32 GB, Trimmed Space: 410.61 GB
+2025-01-13 09:46:24,123 - CPU: None
+2025-01-13 09:46:24,123 - OS Version: 10.0.22631
+2025-01-13 09:46:24,123 - Internet Speed: 477.43 Mbps / 17.51 Mbps
+2025-01-13 09:46:24,123 - Router Speed: 1000 Mbps
+2025-01-13 09:46:24,123 - Maintenance tasks completed.
+2025-01-13 09:49:50,358 - Starting maintenance tasks...
+2025-01-13 09:49:57,035 - Starting Defragmentation...
+2025-01-13 09:49:57,036 - Starting Disk Cleanup...
+2025-01-13 09:49:57,102 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 09:49:57,102 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 09:50:00,132 - Disk Cleanup completed successfully.
+2025-01-13 09:50:21,088 - Post-maintenance Report:
+2025-01-13 09:51:24,655 - Starting maintenance tasks...
+2025-01-13 09:51:31,842 - Starting Disk Cleanup...
+2025-01-13 09:51:31,848 - Starting Defragmentation...
+2025-01-13 09:51:31,866 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 09:51:31,867 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 09:51:34,929 - Disk Cleanup completed successfully.
+2025-01-13 09:51:44,865 - Post-maintenance Report:
+2025-01-13 09:51:44,865 - Total RAM: 31.91 GB
+2025-01-13 09:51:44,866 - Storage - Volume Size: 464.92 GB, Free Space: 53.89 GB, Trimmed Space: 411.03 GB
+2025-01-13 09:51:44,866 - CPU: None
+2025-01-13 09:51:44,866 - OS Version: 10.0.22631
+2025-01-13 09:51:44,867 - Internet Speed: 522.87 Mbps / 436.04 Mbps
+2025-01-13 09:51:44,867 - Router Speed: 1000 Mbps
+2025-01-13 09:51:44,867 - Maintenance tasks completed.
+2025-01-13 10:01:45,577 - Starting maintenance tasks...
+2025-01-13 10:01:52,136 - Starting Defragmentation...
+2025-01-13 10:01:52,147 - Starting Disk Cleanup...
+2025-01-13 10:01:52,215 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 10:01:52,216 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 10:01:55,178 - Disk Cleanup completed successfully.
+2025-01-13 10:02:17,602 - Starting maintenance tasks...
+2025-01-13 10:02:24,158 - Starting Disk Cleanup...
+2025-01-13 10:02:24,165 - Starting Defragmentation...
+2025-01-13 10:02:24,182 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 10:02:24,182 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 10:02:28,159 - Disk Cleanup completed successfully.
+2025-01-13 10:02:30,972 - Post-maintenance Report:
+2025-01-13 10:02:30,973 - Total RAM: 31.91 GB
+2025-01-13 10:02:30,973 - Storage - Volume Size: 464.92 GB, Free Space: 53.81 GB, Trimmed Space: 411.12 GB
+2025-01-13 10:02:30,973 - CPU: None
+2025-01-13 10:02:30,973 - OS Version: 10.0.22631
+2025-01-13 10:02:30,973 - Internet Speed: Error fetching speed: HTTP Error 403: Forbidden
+2025-01-13 10:02:30,973 - Router Speed: 1000 Mbps
+2025-01-13 10:02:30,974 - Maintenance tasks completed.
+2025-01-13 10:04:21,573 - Starting maintenance tasks...
+2025-01-13 10:04:27,971 - Starting Disk Cleanup...
+2025-01-13 10:04:32,003 - Disk Cleanup completed successfully.
+2025-01-13 10:06:17,962 - Starting maintenance tasks...
+2025-01-13 10:06:24,724 - Starting Disk Cleanup...
+2025-01-13 10:06:24,737 - Starting Defragmentation...
+2025-01-13 10:06:24,797 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 10:06:24,797 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 10:06:28,910 - Disk Cleanup completed successfully.
+2025-01-13 10:06:40,517 - Post-maintenance Report:
+2025-01-13 10:06:40,518 - Total RAM: 31.91 GB
+2025-01-13 10:06:40,519 - Storage - Volume Size: 464.92 GB, Free Space: 54.00 GB, Trimmed Space: 410.92 GB
+2025-01-13 10:06:40,519 - CPU: None
+2025-01-13 10:06:40,519 - OS Version: 10.0.22631
+2025-01-13 10:06:40,519 - Internet Speed: 582.77 Mbps / 458.08 Mbps
+2025-01-13 10:06:40,519 - Router Speed: 1000 Mbps
+2025-01-13 10:06:40,520 - Maintenance tasks completed.
+2025-01-13 10:07:51,239 - Starting maintenance tasks...
+2025-01-13 10:07:58,049 - Starting Disk Cleanup...
+2025-01-13 10:07:58,054 - Starting Defragmentation...
+2025-01-13 10:07:58,071 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 10:07:58,072 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 10:08:02,146 - Disk Cleanup completed successfully.

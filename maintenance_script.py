@@ -5,6 +5,7 @@ import logging
 from multiprocessing import Process
 import platform
 import psutil
+from cpuinfo import cpuinfo 
 
 # Setup logging to both console and a file
 log_filename = 'maintenance_log.txt'
@@ -66,10 +67,9 @@ def get_memory_details():
 
 # Collect CPU Information (Only the processor name)
 def get_cpu_details():
-    if platform.system() == "Windows":
-        return platform.processor()
-    return ""  # Return empty string for non-Windows systems
-
+    cpu_brand = _read_windows_registry_key(r"Hardware\Description\System\CentralProcessor\0", "ProcessorNameString")
+    return cpu_brand
+    
 # Collect OS Version Information
 def get_os_version():
     system_info['os_version'] = platform.version()
