@@ -2,4 +2,5 @@ psutil
 speedtest-cli
 py-cpuinfo
 pywin32
-py-cpuinfo
+winshell
+urllib3

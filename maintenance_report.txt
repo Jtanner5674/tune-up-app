@@ -1,0 +1,25 @@
+PC Specifications:
+    CPU: AMD Ryzen 7 5700X 8-Core Processor
+    Ram: 31.91 GB
+    Volume Size: 464.92 GB,
+    Free Space: 67.34 GB,
+    Trimmed Space: 397.58 GB
+    Internet Speed: 588.09 Mbps / 484.25 Mbps
+    Windows Version: 10.0.22631
+
+MALWARE / SPYWARE / VIRUSES:
+    Scanned for malware, spyware, and viruses: Completed
+    Removed unwanted and malicious apps/extensions: Completed
+
+CLEANING:
+    Disk defragmented and cleaned: Completed
+    Verified disk optimization: Completed
+    Obtained Windows updates: Completed
+    System File Checker run: Completed
+
+BACKUP AND SUPPORT:
+    NTI shortcut added and tested: Completed
+    System restore active and Restore Point created: Completed
+
+* Benchmark (0-4000 replace computer, 4000-8000 fair,
+8000-14000 good, 14000-32000+ great)
