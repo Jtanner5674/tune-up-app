@@ -1,0 +1,22 @@
+2025-01-13 16:30:21,969 - Starting maintenance tasks...
+2025-01-13 16:30:32,682 - Starting Defragmentation...
+2025-01-13 16:30:32,683 - SFC is skipped for testing purposes.
+2025-01-13 16:30:32,687 - Starting Windows Defender Quick Scan via CMD...
+2025-01-13 16:30:32,700 - Starting Disk Cleanup...
+2025-01-13 16:30:32,705 - Starting Windows Defender Quick Scan via CMD...
+2025-01-13 16:30:32,730 - Windows update detection initiated.
+2025-01-13 16:30:32,792 - 
+The storage optimizer cannot start because you have insufficient privileges to perform this operation. (0x89000024)
+
+2025-01-13 16:30:32,793 - Defragmentation completed successfully. Trimmed space: None GB
+2025-01-13 16:30:36,686 - Disk Cleanup completed successfully.
+2025-01-13 16:31:06,552 - Windows Defender Quick Scan completed successfully.
+2025-01-13 16:31:06,763 - Windows Defender Quick Scan completed successfully.
+2025-01-13 16:31:09,596 - Post-maintenance Report:
+2025-01-13 16:31:09,597 - Total RAM: 31.91 GB
+2025-01-13 16:31:09,597 - Storage - Volume Size: 464.92 GB, Free Space: 70.96 GB, Trimmed Space: 393.96 GB
+2025-01-13 16:31:09,597 - CPU: AMD Ryzen 7 5700X 8-Core Processor
+2025-01-13 16:31:09,597 - OS Version: 10.0.22631
+2025-01-13 16:31:09,597 - Internet Speed: Error fetching speed: HTTP Error 403: Forbidden
+2025-01-13 16:31:09,597 - Router Speed: 1000 Mbps
+2025-01-13 16:31:09,597 - Maintenance tasks completed.
