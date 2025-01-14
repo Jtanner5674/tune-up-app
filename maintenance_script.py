@@ -131,7 +131,7 @@ def create_nti_shortcut():
         logging.info("Shortcut already exists.")
 
 # Run maintenance tasks and save report
-@licensed('https://nticomputers.com:5001')
+@licensed('http://localhost:5000')
 def run_maintenance():
     tasks = [
         Process(target=disk_cleanup),
