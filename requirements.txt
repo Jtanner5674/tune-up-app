@@ -4,3 +4,4 @@ py-cpuinfo
 pywin32
 winshell
 urllib3
+requests
