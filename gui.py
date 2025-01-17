@@ -7,15 +7,16 @@ import requests
 from pystray import Icon, MenuItem, Menu
 from PIL import Image
 from maintenance_script import run_maintenance
+import sys
+from pathlib import Path
 
 
-# Function to load the license key
+# Function to get the license key from the AppData folder
 def get_license_key():
-    # Path to the .license_key file in the same folder as the script
-    license_key_path = os.path.join(os.path.dirname(__file__), ".license_key")
+    # Path to the .license_key file in the AppData folder
+    license_key_path = Path(os.getenv("APPDATA")) / "NTi" / ".license_key"
 
-    # Check if the .license_key file exists
-    if os.path.exists(license_key_path):
+    if license_key_path.exists():
         with open(license_key_path, "r") as f:
             license_key = f.read().strip()
             return license_key
@@ -52,11 +53,13 @@ def validate_license_key(activation_key, server_url="http://localhost:5000"):
         return False
 
 
-# Function to prompt user for license key if not found
+# Function to prompt user for license key if not found or invalid
 def prompt_for_license():
+    license_key_path = Path(os.getenv("APPDATA")) / "NTi" / ".license_key"
     license_key = get_license_key()
-    valid = validate_license_key(license_key)
-    if not valid:
+
+    # Check if the key is valid
+    if not license_key or not validate_license_key(license_key):
         # Ask user for the license key
         license_window = tk.Tk()
         license_window.title("Enter License Key")
@@ -67,19 +70,20 @@ def prompt_for_license():
 
         def validate_license_and_proceed():
             entered_key = license_entry.get().strip()
-            license_key_path = os.path.join(os.path.dirname(__file__), ".license_key")
-            
+
             if entered_key:
-                # Validate the key using the existing wrapper logic
+                # Validate the entered key
                 if validate_license_key(entered_key):
+                    # Ensure the directory exists and save the key
+                    license_key_path.parent.mkdir(parents=True, exist_ok=True)
                     with open(license_key_path, "w") as f:
                         f.write(entered_key)  # Save the license key to the .license_key file
                     messagebox.showinfo("License", "License validated successfully!")
                     license_window.destroy()
                 else:
-                    # If the key is invalid, delete the existing .license_key (if it exists)
-                    if os.path.exists(license_key_path):
-                        os.remove(license_key_path)  # Delete invalid .license_key
+                    # Delete invalid .license_key if it exists
+                    if license_key_path.exists():
+                        os.remove(license_key_path)
                     messagebox.showerror("License", "Invalid license key. Please try again.")
                     license_window.destroy()
                     prompt_for_license()  # Re-ask for license key
@@ -108,13 +112,13 @@ def start_maintenance():
     # Check if license is valid before proceeding with maintenance
     license_key = get_license_key()
     if not license_key:
-        messagebox.showerror("Error", "License key is missing. Please enter a valid license key.")
+        messagebox.showerror("Error", "License key is missing. Unable to proceed with scheduled maintenance, please enter a valid license key or contact NTi for support.")
         return
 
     if not validate_license_key(license_key):
-        messagebox.showerror("Error", "Invalid license key.")
+        messagebox.showerror("Error", "Invalid license key. Unable to proceed with scheduled maintenance, please contact NTi for support.")
         # Delete invalid .license_key and re-prompt
-        os.remove(os.path.join(os.path.dirname(__file__), ".license_key"))
+        os.remove(Path(os.getenv("APPDATA")) / "NTi" / ".license_key")
         prompt_for_license()
         return
 
@@ -153,6 +157,9 @@ def exit_program(icon, item):
 
 # Run the system tray application
 if __name__ == "__main__":
-    logging.info("Starting system tray application...")
-    prompt_for_license()  # Ensure license key is handled first
-    create_tray_icon()  # Start the system tray icon after license is handled
+    if len(sys.argv) > 1 and sys.argv[1] == "run_maintenance":
+        start_maintenance()
+    else:
+        logging.info("Starting system tray application...")
+        prompt_for_license()  # Ensure license key is handled first
+        create_tray_icon()  # Start the system tray icon after license is handled

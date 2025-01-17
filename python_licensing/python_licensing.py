@@ -8,6 +8,7 @@ import os
 import getpass
 import uuid
 import requests
+from pathlib import Path
 
 def generate_unique_hash():
     """
@@ -23,12 +24,17 @@ def get_activation_key():
     Get the activation key. If the key is not stored locally, ask the user to enter it.
     Store the key locally for future use.
     """
-    key_file = os.path.join(os.path.expanduser('.'), '.license_key')
-    if os.path.exists(key_file):
+    # Store the .license_key file in the AppData folder under a custom directory (e.g., "NTi")
+    key_file = Path(os.getenv("APPDATA")) / "NTi" / ".license_key"
+    
+    if key_file.exists():
         with open(key_file, 'r', encoding='utf-8') as f:
             return f.read().strip()
     else:
+        # If the license key is not found, prompt the user for input
         key = input("Enter your activation key: ")
+        # Ensure the directory exists before writing the key
+        key_file.parent.mkdir(parents=True, exist_ok=True)
         with open(key_file, 'w', encoding='utf-8') as f:
             f.write(key)
         return key
