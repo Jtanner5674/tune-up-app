@@ -1,49 +1,76 @@
-2025-01-17 09:23:51,470 - Starting system tray application...
-2025-01-17 09:24:04,861 - Importing BlpImagePlugin
-2025-01-17 09:24:04,863 - Importing BmpImagePlugin
-2025-01-17 09:24:04,863 - Importing BufrStubImagePlugin
-2025-01-17 09:24:04,864 - Importing CurImagePlugin
-2025-01-17 09:24:04,865 - Importing DcxImagePlugin
-2025-01-17 09:24:04,867 - Importing DdsImagePlugin
-2025-01-17 09:24:04,871 - Importing EpsImagePlugin
-2025-01-17 09:24:04,872 - Importing FitsImagePlugin
-2025-01-17 09:24:04,875 - Importing FliImagePlugin
-2025-01-17 09:24:04,876 - Importing FpxImagePlugin
-2025-01-17 09:24:04,877 - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2025-01-17 09:24:04,877 - Importing FtexImagePlugin
-2025-01-17 09:24:04,878 - Importing GbrImagePlugin
-2025-01-17 09:24:04,879 - Importing GifImagePlugin
-2025-01-17 09:24:04,879 - Importing GribStubImagePlugin
-2025-01-17 09:24:04,880 - Importing Hdf5StubImagePlugin
-2025-01-17 09:24:04,881 - Importing IcnsImagePlugin
-2025-01-17 09:24:04,884 - Importing IcoImagePlugin
-2025-01-17 09:24:04,886 - Importing ImImagePlugin
-2025-01-17 09:24:04,887 - Importing ImtImagePlugin
-2025-01-17 09:24:04,888 - Importing IptcImagePlugin
-2025-01-17 09:24:04,889 - Importing JpegImagePlugin
-2025-01-17 09:24:04,889 - Importing Jpeg2KImagePlugin
-2025-01-17 09:24:04,889 - Importing McIdasImagePlugin
-2025-01-17 09:24:04,890 - Importing MicImagePlugin
-2025-01-17 09:24:04,892 - Image: failed to import MicImagePlugin: No module named 'olefile'
-2025-01-17 09:24:04,892 - Importing MpegImagePlugin
-2025-01-17 09:24:04,893 - Importing MpoImagePlugin
-2025-01-17 09:24:04,902 - Importing MspImagePlugin
-2025-01-17 09:24:04,903 - Importing PalmImagePlugin
-2025-01-17 09:24:04,905 - Importing PcdImagePlugin
-2025-01-17 09:24:04,905 - Importing PcxImagePlugin
-2025-01-17 09:24:04,905 - Importing PdfImagePlugin
-2025-01-17 09:24:04,911 - Importing PixarImagePlugin
-2025-01-17 09:24:04,912 - Importing PngImagePlugin
-2025-01-17 09:24:04,912 - Importing PpmImagePlugin
-2025-01-17 09:24:04,912 - Importing PsdImagePlugin
-2025-01-17 09:24:04,913 - Importing QoiImagePlugin
-2025-01-17 09:24:04,914 - Importing SgiImagePlugin
-2025-01-17 09:24:04,915 - Importing SpiderImagePlugin
-2025-01-17 09:24:04,917 - Importing SunImagePlugin
-2025-01-17 09:24:04,917 - Importing TgaImagePlugin
-2025-01-17 09:24:04,918 - Importing TiffImagePlugin
-2025-01-17 09:24:04,918 - Importing WebPImagePlugin
-2025-01-17 09:24:04,923 - Importing WmfImagePlugin
-2025-01-17 09:24:04,924 - Importing XbmImagePlugin
-2025-01-17 09:24:04,925 - Importing XpmImagePlugin
-2025-01-17 09:24:04,926 - Importing XVThumbImagePlugin
+2025-01-20 14:34:09,958 - Captured Running Processes2025-2025-01-20 14:34:18,368 - Failed to create restore point. Output: 
+2025-01-20 14:34:18,369 - Error: Checkpoint-Computer : Access denied 
+At line:2 char:13
++             Checkpoint-Computer -Description "NTi TuneUp (2025-01-20  ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Checkpoint-Computer], ManagementException
+    + FullyQualifiedErrorId : GetWMIManagementException,Microsoft.PowerShell.Commands.CheckpointComputerCommand
+2025-01-20 14:34:18,371 - Starting new HTTPS connection (1): www.cpubenchmark.net:443
+2025-01-20 14:34:18,779 - https://www.cpubenchmark.net:443 "GET /cpu.php?cpu=AMD+Ryzen+7+5700X+8-Core HTTP/1.1" 301 None
+2025-01-20 14:34:18,780 - Starting new HTTP connection (1): www.cpubenchmark.net:80
+2025-01-20 14:34:18,868 - http://www.cpubenchmark.net:80 "GET /cpu.php?cpu=AMD+Ryzen+7+5700X&id=4814 HTTP/1.1" 301 278
+2025-01-20 14:34:19,201 - https://www.cpubenchmark.net:443 "GET /cpu.php?cpu=AMD+Ryzen+7+5700X&id=4814 HTTP/1.1" 200 None
+2025-01-20 14:34:19,281 - Saving report to C:\Users\jtann\OneDrive\Documents\tuneup app\tune-up-app\maintenance_report.txt
+2025-01-20 14:34:19,282 - Maintenance report saved to C:\Users\jtann\OneDrive\Documents\tuneup app\tune-up-app\maintenance_report.txt.
+2025-01-20 14:34:19,282 - Error writing the report: name 'Path' is not defined
+2025-01-20 14:34:19,311 - Maintenance tasks completed.
+.exe - 39.48 MB
+SearchHost.exe - 116.12 MB
+RuntimeBroker.exe - 245.79 MB
+dllhost.exe - 49.84 MB
+extensionCardHal_x86.exe - 7.05 MB
+NisSrv.exe - 10.52 MB
+AacKingstonDramHal_x86.ex - 6.74 MB
+Aac3572MbHal_x86.exe - 9.11 MB
+nvsphelper64.exe - 10.02 MB
+TextInputHost.exe - 451.02 MB
+ShellExperienceHost.exe - 79.32 MB
+CrossDeviceService.exe - 103.54 MB
+PhoneExperienceHost.exe - 628.92 MB
+WidgetService.exe - 14.14 MB
+SpotifyWidgetProvider.exe - 25.96 MB
+XboxPcAppFT.exe - 27.54 MB
+SystemSettingsBroker.exe - 29.72 MB
+UserOOBEBroker.exe - 8.80 MB
+AdobeCollabSync.exe - 20.14 MB
+ApplicationFrameHost.exe - 28.20 MB
+SecurityHealthService.exe - 15.04 MB
+LockApp.exe - 63.45 MB
+backgroundTaskHost.exe - 2.10 MB
+mysqld.exe - 23.42 MB
+SystemSettings.exe - 2.55 MB
+Microsoft.SharePoint.exe - 7.89 MB
+StartMenuExperienceHost.e - 125.95 MB
+HPPrintScanDoctorService. - 12.24 MB
+YourPhoneAppProxy.exe - 66.86 MB
+Discord.exe - 616.80 MB
+bria.exe - 167.42 MB
+CefSharp.BrowserSubproces - 61.16 MB
+DataExchangeHost.exe - 35.41 MB
+HxOutlook.exe - 2.58 MB
+HxTsr.exe - 12.59 MB
+ctfmon.exe - 30.69 MB
+dbeaver.exe - 253.89 MB
+OfficeClickToRun.exe - 53.79 MB
+AppVShNotify.exe - 6.91 MB
+SearchIndexer.exe - 55.28 MB
+NTiMaintenance.exe - 2.36 MB
+MoNotificationUx.exe - 9.59 MB
+chrome.exe - 4424.69 MB
+mmc.exe - 45.23 MB
+olk.exe - 15.26 MB
+msedgewebview2.exe - 217.65 MB
+vds.exe - 11.26 MB
+WSACrashUploader.exe - 24.09 MB
+VSCodium.exe - 1119.92 MB
+python.exe - 45.86 MB
+python3.13.exe - 390.14 MB
+WsaClient.exe - 46.71 MB
+WsaService.exe - 13.45 MB
+vmmemWSA - 69.64 MB
+pwsh.exe - 403.76 MB
+ONENOTEM.EXE - 3.84 MB
+WmiPrvSE.exe - 13.04 MB
+SearchProtocolHost.exe - 8.93 MB
+tasklist.exe - 9.35 MB
+cleanmgr.exe - 20.94 MB
