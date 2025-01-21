@@ -1,0 +1,8 @@
+build/
+installer/
+dist/
+server/
+*.py
+*.spec
+*.txt
+*.ico
