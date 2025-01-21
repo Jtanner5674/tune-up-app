@@ -2,6 +2,7 @@ build/
 installer/
 dist/
 server/
+_pycache_/
 *.py
 *.spec
 *.txt
