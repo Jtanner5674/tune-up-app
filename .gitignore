@@ -6,3 +6,5 @@ server/
 *.spec
 *.txt
 *.ico
+
+.gitignore
